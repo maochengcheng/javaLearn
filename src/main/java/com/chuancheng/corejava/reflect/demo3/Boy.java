@@ -5,6 +5,7 @@ public class Boy extends Person {
 
     private int weight;
 
+    public static String desc;
     public Boy(){}
 
     private Boy(int height){
@@ -20,7 +21,15 @@ public class Boy extends Person {
         System.out.println("play basketball !");
     }
 
+    public  void playBall(String ballType){
+        System.out.println("play"+ballType+" !");
+    }
     private void  pickUpGirl(){
         System.out.println("追女孩");
     }
+
+    public int getWeight() {
+        return weight;
+    }
+
 }
