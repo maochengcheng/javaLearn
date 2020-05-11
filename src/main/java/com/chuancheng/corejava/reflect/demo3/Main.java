@@ -1,5 +1,6 @@
 package com.chuancheng.corejava.reflect.demo3;
 
+import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
@@ -7,7 +8,8 @@ public class Main {
     public static void main(String[] args) throws Exception {
        // basicOper();
        // filedOper();
-        methodOper();
+       // methodOper();
+        constructorOper();
     }
 
     public static void basicOper()  {
@@ -113,5 +115,32 @@ public class Main {
          */
         Method playBasketballMethod = clazz.getDeclaredMethod("playBasketball");
         playBasketballMethod.invoke(null);
+    }
+
+    public static void  constructorOper() throws Exception{
+        Class clazz =Boy.class;
+        clazz.newInstance();  //基于constructor进行对象的构建
+        System.out.println(clazz.getConstructors().length);
+        System.out.println(clazz.getDeclaredConstructors().length);
+
+        Constructor constructor = clazz.getDeclaredConstructor();
+
+        Constructor constructor1 = clazz.getDeclaredConstructor(int.class);
+
+        Constructor constructor2 = clazz.getDeclaredConstructor(int.class,int.class);
+
+        System.out.println(constructor.getModifiers());
+        System.out.println(constructor1.getModifiers());
+        System.out.println(constructor2.getModifiers());
+
+        Boy boy = (Boy)constructor.newInstance();
+        System.out.println(boy);
+
+        boy = (Boy)constructor2.newInstance(176,130);
+        System.out.println(boy.getWeight());
+
+        constructor1.setAccessible(true);
+        boy = (Boy)constructor1.newInstance(176);
+        System.out.println(boy.height);
     }
 }
