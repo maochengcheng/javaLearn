@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5064a62c-aa33-4a68-90fb-c107699cd1ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo4/Hungry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo4/Lazy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo4/SingletonDestroyer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo4/Hungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo4/Hungry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo4/Lazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo4/Lazy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -65,7 +68,7 @@
       <recent name="E:\ide_space\javaLearn\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SingletonDestroyer">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chuancheng.corejava.reflect.demo3.Main" />
       <module name="javaLearn" />
@@ -79,8 +82,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonDestroyer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuancheng.corejava.reflect.demo4.SingletonDestroyer" />
+      <module name="javaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chuancheng.corejava.reflect.demo4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonDestroyer" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -108,6 +125,7 @@
       <workItem from="1589072547285" duration="671000" />
       <workItem from="1589102093610" duration="2935000" />
       <workItem from="1589187235472" duration="435000" />
+      <workItem from="1589199288207" duration="4092000" />
     </task>
     <servers />
   </component>
@@ -119,29 +137,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589073333761" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589102330373">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589209738273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589102330373" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588519260695" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589102330373">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589209738273" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589209738273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589102330373" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588519260695" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589102330373">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589209738273" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589209738273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589102330373" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588519260695" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589102330373">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589209738273" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589209738273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589102330373" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588519260695" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1588857327458">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589209738273" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1589208854660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588857327458" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589208854660" />
   </component>
 </project>
