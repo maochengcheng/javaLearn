@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5064a62c-aa33-4a68-90fb-c107699cd1ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo4/SingletonDestroyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/javaLearn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sppring-ioc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo4/Hungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo4/Hungry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo4/Lazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo4/Lazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuancheng/corejava/reflect/demo6/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +16,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Tag Library Descriptor" />
+        <option value="xml" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/sppring-ioc.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -51,20 +56,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588758897685" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lawyermeeting/jail" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zj_wffz_api/api_manager2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_space\javaLearn\src\main\resources" />
       <recent name="E:\ide_space\javaLearn\src\main\java" />
     </key>
   </component>
@@ -126,6 +132,9 @@
       <workItem from="1589102093610" duration="2935000" />
       <workItem from="1589187235472" duration="435000" />
       <workItem from="1589199288207" duration="4092000" />
+      <workItem from="1589284565458" duration="5408000" />
+      <workItem from="1589368832746" duration="977000" />
+      <workItem from="1589458804220" duration="1364000" />
     </task>
     <servers />
   </component>
@@ -133,9 +142,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1589073333761">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1589294600290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589294600290" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1589373257055">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589373257055" />
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589073333761" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589209738273">
       <screen x="0" y="0" width="1366" height="728" />
@@ -157,9 +171,18 @@
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589102330373" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589209738273" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1589208854660">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1589294442943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589294442943" />
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589208854660" />
+    <state x="57" y="59" key="new project wizard" timestamp="1589295507744">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="59" key="new project wizard/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589295507744" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589295705846">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589295705846" />
   </component>
 </project>
