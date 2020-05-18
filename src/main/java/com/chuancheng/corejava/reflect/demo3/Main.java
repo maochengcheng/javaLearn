@@ -8,8 +8,8 @@ public class Main {
     public static void main(String[] args) throws Exception {
        // basicOper();
        // filedOper();
-       // methodOper();
-        constructorOper();
+        methodOper();
+       // constructorOper();
     }
 
     public static void basicOper()  {
