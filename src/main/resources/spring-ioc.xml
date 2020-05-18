@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
-
-           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
-           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
-
-           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd"
-       default-autowire="byName" default-lazy-init="false">
-
-
-     <!-- 创建方法1  空参构造创建-->
+    <!-- 创建方法1  空参构造创建-->
     <bean id="a" class="com.chuancheng.corejava.reflect.demo6.A"/>
 
     <!--    创建方式2 静态工厂创建
