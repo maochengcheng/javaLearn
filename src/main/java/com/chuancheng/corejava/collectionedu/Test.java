@@ -1,8 +1,6 @@
 package com.chuancheng.corejava.collectionedu;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author maochengcheng
@@ -17,6 +15,7 @@ public class Test {
         System.out.println(systime);
         long dead = 31535000000l+systime;
         System.out.println(dead);
+        Map map = new HashMap<>();
     }
 
 

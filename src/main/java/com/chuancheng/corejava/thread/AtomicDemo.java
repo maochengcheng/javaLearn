@@ -12,7 +12,7 @@ public class AtomicDemo {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        count++;
+        count++;  //只会由一个线程来执行
     }
 
     public static void main(String[] args) throws InterruptedException {
