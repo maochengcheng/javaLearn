@@ -9,6 +9,6 @@ public class Test {
 
         IPerson lisi = jdkMeipo.getInstance(new Lisi());
         lisi.flindlove();
-        lisi.buyInsure();
+
     }
 }

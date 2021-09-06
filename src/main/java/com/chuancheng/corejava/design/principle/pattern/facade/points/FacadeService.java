@@ -1,5 +1,9 @@
 package com.chuancheng.corejava.design.principle.pattern.facade.points;
-
+/**
+ * @author maochengcheng
+ * @date 2021/8/8 0008
+ * @function: 门面
+ */
 public class FacadeService {
     QualifyService qualifyService = new QualifyService();
     PaymentService paymentService = new PaymentService();

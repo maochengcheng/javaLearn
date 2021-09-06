@@ -7,6 +7,6 @@ package com.chuancheng.corejava.design.principle.pattern.factory.abstractfactory
 public class LuaNote implements INote{
     @Override
     public void edit() {
-
+        System.out.println("lua笔记");
     }
 }

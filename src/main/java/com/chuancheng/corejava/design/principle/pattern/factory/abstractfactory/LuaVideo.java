@@ -7,6 +7,6 @@ package com.chuancheng.corejava.design.principle.pattern.factory.abstractfactory
 public class LuaVideo implements IVideo{
     @Override
     public void record() {
-
+        System.out.println("lua视频");
     }
 }

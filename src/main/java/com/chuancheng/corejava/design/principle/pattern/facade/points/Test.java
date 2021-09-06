@@ -1,5 +1,9 @@
 package com.chuancheng.corejava.design.principle.pattern.facade.points;
 
+/**
+ * @author maochengcheng
+ * @date 2021/8/8 0008
+ */
 public class Test {
     public static void main(String[] args) {
 
