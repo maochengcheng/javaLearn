@@ -12,7 +12,7 @@ public class SauageDecorator extends BattercakeDecorator{
     }
 
     protected String getMsg() {
-        return super.getMsg() + "1根香肠";
+        return super.getMsg() + " 1根香肠";
     }
 
 
