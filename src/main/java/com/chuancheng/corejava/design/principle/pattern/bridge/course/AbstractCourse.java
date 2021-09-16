@@ -17,6 +17,7 @@ public class AbstractCourse implements ICourse{
         this.video = video;
     }
 
+
     @Override
     public String toString() {
         return "AbstractCourse{" +

@@ -3,7 +3,7 @@ package com.chuancheng.corejava.design.principle.pattern.bridge.message;
 /**
  * @author: maochengcheng
  * @date: 2021/8/18
- * @function:
+ * @function: 测试
  */
 public class Test {
     public static void main(String[] args) {
